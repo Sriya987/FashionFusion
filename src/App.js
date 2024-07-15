@@ -27,6 +27,7 @@ function App() {
             <Route element={<PrivateRouteWithNavbar />}>
             <Route path="/" element={<Navigate to="/FashionFusion" replace />} />
             <Route path="/FashionFusion" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/exclusive-content" element={<ExclusiveContent />} />
             <Route path="/quizzes" element={<Quizzes />} />
             <Route path="/social-sharing" element={<SocialSharing />} />
