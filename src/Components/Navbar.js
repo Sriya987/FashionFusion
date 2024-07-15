@@ -19,7 +19,7 @@ const Navbar = () => {
         </video>
       </div>
       <ul className="navbar-links">
-        <li className='navicons'><Link to="/">Home</Link></li>
+        <li className='navicons'><Link to="/FashionFusion">Home</Link></li>
         <li className='navicons'><Link to="/exclusive-content">Exclusive Content</Link></li>
         <li className='navicons'><Link to="/quizzes">Quizzes</Link></li>
         {/* <li className='navicons'><Link to="/tabs">Tabs</Link></li> */}
