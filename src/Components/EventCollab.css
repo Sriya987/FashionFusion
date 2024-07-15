@@ -1,0 +1,106 @@
+.event-collab {
+    background-color: #976ce6;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .event-collab h2 {
+    color: #f7f4f4;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .event-collab p {
+    color: #f5f1f1;
+    font-size: 16px;
+  }
+  
+  .event-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .virtual-show,
+  .influencer-collab {
+    background-color: #fde1ff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: 45%;
+  }
+  
+  .virtual-show h3,
+  .influencer-collab h3 {
+    color: #374152;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .virtual-show p,
+  .influencer-collab p {
+    color: #555;
+    font-size: 14px;
+  }
+  
+  button {
+    background-color: #374152;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  .host-event {
+    margin-top: 20px;
+    background-color: #fde1ff;
+    height: 150px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    
+  }
+  
+  .event-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .event-form input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .event-form button {
+    background-color: #976ce6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .event-form button:hover {
+    background-color: #7c52af;
+  }

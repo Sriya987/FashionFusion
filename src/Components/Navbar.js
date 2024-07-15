@@ -27,7 +27,7 @@ const Navbar = () => {
         <li className='navicons'><Link to="/social-sharing">Social Sharing</Link></li>
         <li className='navicons'><Link to="/events">Events</Link></li>
         {isLoggedIn ? (
-          <li className='navicons'><button onClick={handleLogout}>Logout</button></li>
+          <li className='navicons' style={{textDecoration:'none',paddingBottom:'5px'}}><button style={{background:'#ffffff10'}} onClick={handleLogout}>Logout</button></li>
         ) : (
           <li><Link to="/login">Login</Link></li>
         )}
