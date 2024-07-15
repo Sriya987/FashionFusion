@@ -16,7 +16,7 @@ import './App.css';
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename='/FashionFusion'>
         <Routes>
           {/* Routes without Navbar */}
           <Route path="/login" element={<LoginWithoutNavbar />} />
@@ -27,8 +27,6 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/exclusive-content" element={<ExclusiveContent />} />
             <Route path="/quizzes" element={<Quizzes />} />
-            {/* <Route path="/leaderboard" element={<Leaderboard />} /> */}
-            {/* <Route path='/tabs' element={<Tabs/>}/> */}
             <Route path="/social-sharing" element={<SocialSharing />} />
             <Route path="/events" element={<EventCollab />} />
           </Route>
