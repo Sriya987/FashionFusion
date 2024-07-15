@@ -16,6 +16,7 @@ import './App.css';
 function App() {
   return (
     <AuthProvider>
+      
       <Router basename='/FashionFusion'>
         <Routes>
           {/* Routes without Navbar */}
@@ -23,7 +24,8 @@ function App() {
           <Route path="/signup" element={<SignupWithoutNavbar />} />
           
           {/* Routes with Navbar */}
-          <Route element={<PrivateRouteWithNavbar />}>
+            <Route element={<PrivateRouteWithNavbar />}>
+            
             <Route path="/FashionFusion" element={<Home />} />
             <Route path="/exclusive-content" element={<ExclusiveContent />} />
             <Route path="/quizzes" element={<Quizzes />} />

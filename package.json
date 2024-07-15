@@ -26,7 +26,7 @@
     "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
   },
-  "homepage":"https://github.com/Sriya987/FashionFusion",
+  "homepage":"https://sriya987.github.io/FashionFusion",
   "eslintConfig": {
     "extends": [
       "react-app",
