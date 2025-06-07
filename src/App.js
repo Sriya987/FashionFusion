@@ -54,7 +54,7 @@ function PrivateRouteWithNavbar({ children }) {
       </Routes>
     </>
   ) : (
-    <Navigate to="/login" />
+    <Navigate to="/signup" />
   );
 }
 
