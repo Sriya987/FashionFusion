@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FashionFusion/static/css/main.08792928.css",
-    "main.js": "/FashionFusion/static/js/main.2f4ec6e9.js",
+    "main.css": "/FashionFusion/static/css/main.6ed2680d.css",
+    "main.js": "/FashionFusion/static/js/main.87df412a.js",
     "static/js/453.a45b108e.chunk.js": "/FashionFusion/static/js/453.a45b108e.chunk.js",
     "static/media/social-sharing4.jpeg": "/FashionFusion/static/media/social-sharing4.5103b2cc901a27ec84c2.jpeg",
     "static/media/img3.jpeg": "/FashionFusion/static/media/img3.4660537e56d25daf3414.jpeg",
@@ -13,12 +13,12 @@
     "static/media/img4.jpeg": "/FashionFusion/static/media/img4.5005060f48282be3db85.jpeg",
     "static/media/social-sharing3.jpeg": "/FashionFusion/static/media/social-sharing3.d42d489d6707c4794fd1.jpeg",
     "index.html": "/FashionFusion/index.html",
-    "main.08792928.css.map": "/FashionFusion/static/css/main.08792928.css.map",
-    "main.2f4ec6e9.js.map": "/FashionFusion/static/js/main.2f4ec6e9.js.map",
+    "main.6ed2680d.css.map": "/FashionFusion/static/css/main.6ed2680d.css.map",
+    "main.87df412a.js.map": "/FashionFusion/static/js/main.87df412a.js.map",
     "453.a45b108e.chunk.js.map": "/FashionFusion/static/js/453.a45b108e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08792928.css",
-    "static/js/main.2f4ec6e9.js"
+    "static/css/main.6ed2680d.css",
+    "static/js/main.87df412a.js"
   ]
 }
